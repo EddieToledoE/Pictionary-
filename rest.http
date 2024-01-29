@@ -1,0 +1,22 @@
+### Crear usuario 
+POST http://localhost:3000/api/auth/registro
+Content-Type: application/json
+
+{
+    "email":"Winter",
+    "contraseña":"12345678"
+}
+
+
+    # "email":"Misifuu",
+    # "contraseña":"miauu123"
+    # Winter
+    # 12345678
+
+### Probar Conexion
+POST http://localhost:3001/ready
+Content-Type: application/json
+
+{
+    "userId":"Winter",
+}
